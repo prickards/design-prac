@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'ozzy';
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+    font-family: 'font2';
+    src: url(fonts/Yarndings/Yarndings12-Regular.ttf);
+    font-family: 'font1';
+    src: url(fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+
+/* universals section */
+
+* {
+    style: none;
+    font-family: ozzy   , 'Times New Roman', Times, serif;
+}
+
+body {
+    border: 2px dotted #05F9E6; 
+}
+
+.container {
+    border: 5px solid #0FD256;  
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #D2D10F;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-left: 30px; 
+    color: white; 
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 10px;     
+}
+
+/*colors section*/
+
+.color {
+    padding: 10px; 
+}
+
+.compvals { 
+    text-align: right; 
+    color: white; 
+    background-color: black;
+    width: 50%; 
+    display: block;
+    position: absolute;
+    top: 135px; 
+    left: 400px; 
+    padding: 10px;
+}
+
+/*fonts section*/
+
+h3 {
+    font-family: ozzy;
+    color: green; 
+    text-decoration: underline;
+}
+
+.font1 h3 {
+    font-family: 'font1';
+}
+
+.font1 p {
+    font-family: 'font1';
+}
+
+.font2 h3 {
+    font-family: 'font2', arial;
+    color: pink; 
+    font-weight: 900;
+    font-style: none; 
+}
+
+.font2 p {
+    font-family: 'font2', arial;
+    color: pink; 
+    font-weight: 900;
+    font-style: none; 
+}
+
+.font3 h3 {
+    font-family: 'Dancing script';
+    color: blue; 
+}
+
+.font3 p {
+    font-family: 'Dancing script';
+    color: blue; 
+}
+
+.font4 h3 {
+    font-family: 'Bungee spice';
+    text-decoration: none;
+}
+
+.font4 p {
+    font-family: 'Bungee spice';
+}
+
+
+/*text style section */
